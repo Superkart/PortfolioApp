@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -11,7 +10,6 @@ export const metadata: Metadata = {
   title: "Karthik Ragi | Software Development Engineer",
   description:
     "Portfolio of Karthik Ragi - Software Development Engineer specializing in Game Development, Full-Stack Web Development, and Data Science",
-  generator: "v0.app",
   keywords: ["Software Engineer", "Game Developer", "Data Scientist", "Unity", "React", "Next.js", "Portfolio"],
   authors: [{ name: "Karthik Ragi" }],
   icons: {
@@ -42,7 +40,6 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={`font-sans antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )
