@@ -12,23 +12,23 @@ export const metadata: Metadata = {
     "Portfolio of Karthik Ragi - Software Development Engineer specializing in Game Development, Full-Stack Web Development, and Data Science",
   keywords: ["Software Engineer", "Game Developer", "Data Scientist", "Unity", "React", "Next.js", "Portfolio"],
   authors: [{ name: "Karthik Ragi" }],
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  // icons: {
+  //   icon: [
+  //     {
+  //       url: "/icon-light-32x32.png",
+  //       media: "(prefers-color-scheme: light)",
+  //     },
+  //     {
+  //       url: "/icon-dark-32x32.png",
+  //       media: "(prefers-color-scheme: dark)",
+  //     },
+  //     {
+  //       url: "/icon.svg",
+  //       type: "image/svg+xml",
+  //     },
+  //   ],
+  //   apple: "/apple-icon.png",
+  // },
 }
 
 export default function RootLayout({
