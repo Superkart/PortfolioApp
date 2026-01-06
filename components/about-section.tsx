@@ -12,7 +12,7 @@ export function AboutSection() {
 
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
-              <Image src="/developer-working-on-computer-coding.jpg" alt="Karthik coding" fill className="object-cover" />
+              <Image src="/LinkedinPhoto.png" alt="Karthik coding" fill className="object-cover" />
             </div>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">

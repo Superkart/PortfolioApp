@@ -17,7 +17,7 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="flex justify-center animate-fade-in">
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden ring-4 ring-primary/20 shadow-xl">
-              <Image src="/professional-developer-portrait.png" alt="Karthik Ragi" fill className="object-cover" priority />
+              <Image src="/LinkedinPhoto.png" alt="Karthik Ragi" fill className="object-cover" priority />
             </div>
           </div>
 
