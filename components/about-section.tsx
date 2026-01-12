@@ -10,9 +10,9 @@ export function AboutSection() {
             <div className="h-1 w-20 bg-primary" />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-start">
             <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
-              <Image src="/LinkedinPhoto.png" alt="Karthik coding" fill className="object-cover" />
+              <Image src="/LinkedinPhoto.png" alt="Karthik Ragi" fill className="object-cover" />
             </div>
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
@@ -32,14 +32,8 @@ export function AboutSection() {
 
               <p>
                 Currently pursuing my degree at the{" "}
-                <span className="text-foreground font-medium">University of Illinois Chicago</span>, I&apos;m strengthening my 
-                foundations in modern C++ and data structures and algorithms to deepen my ability to work on performance-critical 
-                code and large-scale software systems while continuing to build polished, user-facing products.
-              </p>
-
-              <p className="text-foreground font-medium">
-                I&apos;m seeking SDE roles where I can own features end-to-end, collaborate closely with a team, and ship 
-                impactful software, whether that&apos;s backend, full-stack, platform, or interactive/real-time systems.
+                <span className="text-foreground font-medium">University of Illinois Chicago</span> while building 
+                polished, user-facing products and working on performance-critical systems.
               </p>
             </div>
           </div>

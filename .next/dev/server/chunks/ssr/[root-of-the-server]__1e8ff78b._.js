@@ -90,13 +90,13 @@ function AboutSection() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid md:grid-cols-2 gap-8 items-center",
+                        className: "grid md:grid-cols-2 gap-8 items-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative aspect-square rounded-lg overflow-hidden shadow-xl",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/LinkedinPhoto.png",
-                                    alt: "Karthik coding",
+                                    alt: "Karthik Ragi",
                                     fill: true,
                                     className: "object-cover"
                                 }, void 0, false, {
@@ -170,19 +170,11 @@ function AboutSection() {
                                                 lineNumber: 35,
                                                 columnNumber: 17
                                             }, this),
-                                            ", I'm strengthening my foundations in modern C++ and data structures and algorithms to deepen my ability to work on performance-critical code and large-scale software systems while continuing to build polished, user-facing products."
+                                            " while building polished, user-facing products and working on performance-critical systems."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/about-section.tsx",
                                         lineNumber: 33,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-foreground font-medium",
-                                        children: "I'm seeking SDE roles where I can own features end-to-end, collaborate closely with a team, and ship impactful software, whether that's backend, full-stack, platform, or interactive/real-time systems."
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 40,
                                         columnNumber: 15
                                     }, this)
                                 ]
