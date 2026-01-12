@@ -71,7 +71,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 const metadata = {
     title: "Karthik Ragi | Software Development Engineer",
-    description: "Portfolio of Karthik Ragi - Software Development Engineer specializing in Game Development, Full-Stack Web Development, and Data Science",
+    description: "Portfolio of Karthik Ragi - Software Development Engineer specializing in Full-Stack Web Development with expertise in React, TypeScript, Node.js, Spring Boot, and modern web technologies",
     keywords: [
         "Software Engineer",
         "Game Developer",

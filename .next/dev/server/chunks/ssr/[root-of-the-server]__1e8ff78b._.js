@@ -124,7 +124,7 @@ function AboutSection() {
                                                 lineNumber: 21,
                                                 columnNumber: 17
                                             }, this),
-                                            ", where I'm constantly exploring the frontiers of technology and innovation."
+                                            ", where I'm constantly expanding my knowledge in software engineering and system design."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/about-section.tsx",
@@ -133,17 +133,17 @@ function AboutSection() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "My technical interests span across multiple domains: from creating immersive game experiences with",
+                                            "As a Software Development Engineer, I specialize in building",
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-foreground font-medium",
-                                                children: "Unity and VR/XR systems"
+                                                children: "full-stack web applications"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about-section.tsx",
                                                 lineNumber: 27,
                                                 columnNumber: 17
                                             }, this),
-                                            ", to building scalable full-stack web applications, to uncovering insights through data science and machine learning."
+                                            " using modern technologies like React, TypeScript, Node.js, and Spring Boot. I'm passionate about creating scalable, maintainable solutions with clean architecture and robust backend systems."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/about-section.tsx",
@@ -151,10 +151,10 @@ function AboutSection() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "What drives me is building systems that are both technically sophisticated and genuinely useful—whether implementing multiplayer networking for games, optimizing web performance, or tracking data provenance for transparency. Each project teaches me about problem-solving, system design, and writing clean, maintainable code."
+                                        children: "What drives me is solving complex problems through code—whether it's designing RESTful APIs, implementing authentication systems, optimizing database queries, or building responsive user interfaces. I believe in writing code that is not only functional but also clean, well-tested, and maintainable for the long term."
                                     }, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 32,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -365,70 +365,67 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e
 ;
 const skillCategories = [
     {
-        title: "Game Development",
-        skills: [
-            "Unity",
-            "C#",
-            "Unity Netcode",
-            "OpenXR",
-            "XR Interaction Toolkit",
-            "Physics Systems",
-            "AI Pathfinding",
-            "Multiplayer Networking",
-            "HDRP",
-            "Custom Shaders"
-        ]
-    },
-    {
-        title: "Web Development",
+        title: "Frontend Development",
         skills: [
             "React",
             "TypeScript",
+            "JavaScript",
             "Next.js",
-            "Vite",
+            "HTML/CSS",
             "Tailwind CSS",
+            "Responsive Design",
+            "State Management",
+            "React Hooks"
+        ]
+    },
+    {
+        title: "Backend Development",
+        skills: [
             "Node.js",
-            "Hono",
+            "Express",
             "Spring Boot",
             "Java",
-            "RESTful APIs"
+            "RESTful APIs",
+            "Authentication",
+            "OAuth 2.0",
+            "Microservices",
+            "API Design"
         ]
     },
     {
-        title: "Cloud & Backend",
+        title: "Database & Cloud",
         skills: [
+            "PostgreSQL",
+            "MongoDB",
+            "SQL",
             "Cloudflare Workers",
             "Vercel",
-            "Netlify",
-            "PostgreSQL",
-            "D1",
-            "Drizzle ORM",
             "Docker",
-            "Firebase"
+            "Database Design",
+            "ORM"
         ]
     },
     {
-        title: "Data Science & ML",
+        title: "Programming Languages",
         skills: [
+            "TypeScript",
+            "JavaScript",
+            "Java",
             "Python",
-            "Jupyter Notebook",
-            "pandas",
-            "NumPy",
-            "NLTK",
-            "TF-IDF",
-            "scikit-learn",
-            "Data Visualization",
-            "Provenance Tracking"
+            "C#",
+            "SQL"
         ]
     },
     {
-        title: "Tools & Technologies",
+        title: "Tools & Practices",
         skills: [
             "Git",
             "GitHub",
-            "OAuth/OpenID",
-            "WebGL",
-            "Axios",
+            "CI/CD",
+            "Agile/Scrum",
+            "Testing",
+            "Code Review",
+            "VS Code",
             "REST APIs"
         ]
     }
@@ -450,28 +447,28 @@ function SkillsSection() {
                                 children: "Skills & Technologies"
                             }, void 0, false, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 65,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-1 w-20 bg-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 66,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg text-muted-foreground",
-                                children: "A diverse toolkit for building modern applications"
+                                children: "Technical expertise in full-stack software development"
                             }, void 0, false, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 67,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/skills-section.tsx",
-                        lineNumber: 64,
+                        lineNumber: 59,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -485,12 +482,12 @@ function SkillsSection() {
                                             children: category.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/skills-section.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 69,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/skills-section.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 68,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -502,44 +499,44 @@ function SkillsSection() {
                                                     children: skill
                                                 }, skill, false, {
                                                     fileName: "[project]/components/skills-section.tsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 74,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/skills-section.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 72,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/skills-section.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 71,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, category.title, true, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 72,
+                                lineNumber: 67,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/skills-section.tsx",
-                        lineNumber: 70,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/skills-section.tsx",
-                lineNumber: 63,
+                lineNumber: 58,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/skills-section.tsx",
-            lineNumber: 62,
+            lineNumber: 57,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/skills-section.tsx",
-        lineNumber: 61,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }

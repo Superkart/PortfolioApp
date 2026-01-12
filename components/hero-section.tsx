@@ -31,14 +31,13 @@ export function HeroSection() {
             </h1>
 
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-light animate-fade-in-up animation-delay-200">
-              Software Development Engineer | Game Developer | Data Scientist
+              Software Development Engineer
             </p>
           </div>
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-in-up animation-delay-400">
-            Building intelligent, interactive systems at the intersection of game development, full-stack web
-            applications, and data science. Passionate about creating immersive experiences and solving complex
-            problems.
+            Building scalable, robust software solutions through full-stack development. Passionate about clean code,
+            system design, and delivering high-quality applications that solve real-world problems.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 animate-fade-in-up animation-delay-600">

@@ -19,20 +19,21 @@ export function AboutSection() {
               <p>
                 I&apos;m currently pursuing my studies at the{" "}
                 <span className="text-foreground font-medium">University of Illinois Chicago</span>, where I&apos;m
-                constantly exploring the frontiers of technology and innovation.
+                constantly expanding my knowledge in software engineering and system design.
               </p>
 
               <p>
-                My technical interests span across multiple domains: from creating immersive game experiences with{" "}
-                <span className="text-foreground font-medium">Unity and VR/XR systems</span>, to building scalable
-                full-stack web applications, to uncovering insights through data science and machine learning.
+                As a Software Development Engineer, I specialize in building{" "}
+                <span className="text-foreground font-medium">full-stack web applications</span> using modern technologies
+                like React, TypeScript, Node.js, and Spring Boot. I&apos;m passionate about creating scalable, 
+                maintainable solutions with clean architecture and robust backend systems.
               </p>
 
               <p>
-                What drives me is building systems that are both technically sophisticated and genuinely useful—whether
-                implementing multiplayer networking for games, optimizing web performance, or tracking data provenance
-                for transparency. Each project teaches me about problem-solving, system design, and writing clean,
-                maintainable code.
+                What drives me is solving complex problems through code—whether it&apos;s designing RESTful APIs, 
+                implementing authentication systems, optimizing database queries, or building responsive user interfaces.
+                I believe in writing code that is not only functional but also clean, well-tested, and maintainable for 
+                the long term.
               </p>
             </div>
           </div>

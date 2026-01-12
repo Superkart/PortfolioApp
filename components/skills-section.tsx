@@ -3,56 +3,51 @@ import { Badge } from "@/components/ui/badge"
 
 const skillCategories = [
   {
-    title: "Game Development",
-    skills: [
-      "Unity",
-      "C#",
-      "Unity Netcode",
-      "OpenXR",
-      "XR Interaction Toolkit",
-      "Physics Systems",
-      "AI Pathfinding",
-      "Multiplayer Networking",
-      "HDRP",
-      "Custom Shaders",
-    ],
-  },
-  {
-    title: "Web Development",
+    title: "Frontend Development",
     skills: [
       "React",
       "TypeScript",
+      "JavaScript",
       "Next.js",
-      "Vite",
+      "HTML/CSS",
       "Tailwind CSS",
+      "Responsive Design",
+      "State Management",
+      "React Hooks",
+    ],
+  },
+  {
+    title: "Backend Development",
+    skills: [
       "Node.js",
-      "Hono",
+      "Express",
       "Spring Boot",
       "Java",
       "RESTful APIs",
+      "Authentication",
+      "OAuth 2.0",
+      "Microservices",
+      "API Design",
     ],
   },
   {
-    title: "Cloud & Backend",
-    skills: ["Cloudflare Workers", "Vercel", "Netlify", "PostgreSQL", "D1", "Drizzle ORM", "Docker", "Firebase"],
+    title: "Database & Cloud",
+    skills: ["PostgreSQL", "MongoDB", "SQL", "Cloudflare Workers", "Vercel", "Docker", "Database Design", "ORM"],
   },
   {
-    title: "Data Science & ML",
+    title: "Programming Languages",
     skills: [
+      "TypeScript",
+      "JavaScript",
+      "Java",
       "Python",
-      "Jupyter Notebook",
-      "pandas",
-      "NumPy",
-      "NLTK",
-      "TF-IDF",
-      "scikit-learn",
-      "Data Visualization",
-      "Provenance Tracking",
+      "C#",
+      "SQL",
     ],
   },
   {
-    title: "Tools & Technologies",
-    skills: ["Git", "GitHub", "OAuth/OpenID", "WebGL", "Axios", "REST APIs"],
+    title: "Tools & Practices",
+    skills: ["Git", "GitHub", "CI/CD", "Agile/Scrum", "Testing", "Code Review", "VS Code", "REST APIs"],
   },
 ]
 
@@ -64,7 +59,7 @@ export function SkillsSection() {
           <div className="space-y-4 mb-12">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">Skills & Technologies</h2>
             <div className="h-1 w-20 bg-primary" />
-            <p className="text-lg text-muted-foreground">A diverse toolkit for building modern applications</p>
+            <p className="text-lg text-muted-foreground">Technical expertise in full-stack software development</p>
           </div>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

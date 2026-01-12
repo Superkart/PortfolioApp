@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Karthik Ragi | Software Development Engineer",
   description:
-    "Portfolio of Karthik Ragi - Software Development Engineer specializing in Game Development, Full-Stack Web Development, and Data Science",
+    "Portfolio of Karthik Ragi - Software Development Engineer specializing in Full-Stack Web Development with expertise in React, TypeScript, Node.js, Spring Boot, and modern web technologies",
   keywords: ["Software Engineer", "Game Developer", "Data Scientist", "Unity", "React", "Next.js", "Portfolio"],
   authors: [{ name: "Karthik Ragi" }],
   // icons: {
