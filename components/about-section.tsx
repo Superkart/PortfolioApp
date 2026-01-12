@@ -17,23 +17,29 @@ export function AboutSection() {
 
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I&apos;m currently pursuing my studies at the{" "}
-                <span className="text-foreground font-medium">University of Illinois Chicago</span>, where I&apos;m
-                constantly expanding my knowledge in software engineering and system design.
+                I&apos;m <span className="text-foreground font-medium">Karthik Ragi</span>, a software developer who builds 
+                interactive, reliable systems that ship. Professionally, I&apos;ve worked on{" "}
+                <span className="text-foreground font-medium">defense-grade simulation and training software</span> in 
+                Unity/C#, where performance, correctness, and clear engineering practices are non-negotiable.
               </p>
 
               <p>
-                As a Software Development Engineer, I specialize in building{" "}
-                <span className="text-foreground font-medium">full-stack web applications</span> using modern technologies
-                like React, TypeScript, Node.js, and Spring Boot. I&apos;m passionate about creating scalable, 
-                maintainable solutions with clean architecture and robust backend systems.
+                My work spans <span className="text-foreground font-medium">product and systems thinking</span>: real-time 3D, 
+                gameplay logic, and AI behaviors on one side, and full-stack development with React/TypeScript and backend services 
+                (Spring Boot, Node.js) on the other. I&apos;m also comfortable in data-heavy workflows using Python (pandas/Jupyter) 
+                for analysis and engineering-focused projects like provenance tracking.
               </p>
 
               <p>
-                What drives me is solving complex problems through code—whether it&apos;s designing RESTful APIs, 
-                implementing authentication systems, optimizing database queries, or building responsive user interfaces.
-                I believe in writing code that is not only functional but also clean, well-tested, and maintainable for 
-                the long term.
+                Currently pursuing my degree at the{" "}
+                <span className="text-foreground font-medium">University of Illinois Chicago</span>, I&apos;m strengthening my 
+                foundations in modern C++ and data structures and algorithms to deepen my ability to work on performance-critical 
+                code and large-scale software systems while continuing to build polished, user-facing products.
+              </p>
+
+              <p className="text-foreground font-medium">
+                I&apos;m seeking SDE roles where I can own features end-to-end, collaborate closely with a team, and ship 
+                impactful software, whether that&apos;s backend, full-stack, platform, or interactive/real-time systems.
               </p>
             </div>
           </div>

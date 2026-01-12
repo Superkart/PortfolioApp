@@ -114,17 +114,26 @@ function AboutSection() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "I'm currently pursuing my studies at the",
+                                            "I'm ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-foreground font-medium",
+                                                children: "Karthik Ragi"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/about-section.tsx",
+                                                lineNumber: 20,
+                                                columnNumber: 26
+                                            }, this),
+                                            ", a software developer who builds interactive, reliable systems that ship. Professionally, I've worked on",
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-foreground font-medium",
-                                                children: "University of Illinois Chicago"
+                                                children: "defense-grade simulation and training software"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about-section.tsx",
-                                                lineNumber: 21,
+                                                lineNumber: 22,
                                                 columnNumber: 17
                                             }, this),
-                                            ", where I'm constantly expanding my knowledge in software engineering and system design."
+                                            " in Unity/C#, where performance, correctness, and clear engineering practices are non-negotiable."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/about-section.tsx",
@@ -133,28 +142,47 @@ function AboutSection() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: [
-                                            "As a Software Development Engineer, I specialize in building",
-                                            " ",
+                                            "My work spans ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-foreground font-medium",
-                                                children: "full-stack web applications"
+                                                children: "product and systems thinking"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/about-section.tsx",
                                                 lineNumber: 27,
-                                                columnNumber: 17
+                                                columnNumber: 31
                                             }, this),
-                                            " using modern technologies like React, TypeScript, Node.js, and Spring Boot. I'm passionate about creating scalable, maintainable solutions with clean architecture and robust backend systems."
+                                            ": real-time 3D, gameplay logic, and AI behaviors on one side, and full-stack development with React/TypeScript and backend services (Spring Boot, Node.js) on the other. I'm also comfortable in data-heavy workflows using Python (pandas/Jupyter) for analysis and engineering-focused projects like provenance tracking."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 26,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "What drives me is solving complex problems through code—whether it's designing RESTful APIs, implementing authentication systems, optimizing database queries, or building responsive user interfaces. I believe in writing code that is not only functional but also clean, well-tested, and maintainable for the long term."
+                                        children: [
+                                            "Currently pursuing my degree at the",
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-foreground font-medium",
+                                                children: "University of Illinois Chicago"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/about-section.tsx",
+                                                lineNumber: 35,
+                                                columnNumber: 17
+                                            }, this),
+                                            ", I'm strengthening my foundations in modern C++ and data structures and algorithms to deepen my ability to work on performance-critical code and large-scale software systems while continuing to build polished, user-facing products."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/about-section.tsx",
+                                        lineNumber: 33,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-foreground font-medium",
+                                        children: "I'm seeking SDE roles where I can own features end-to-end, collaborate closely with a team, and ship impactful software, whether that's backend, full-stack, platform, or interactive/real-time systems."
                                     }, void 0, false, {
                                         fileName: "[project]/components/about-section.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 40,
                                         columnNumber: 15
                                     }, this)
                                 ]
