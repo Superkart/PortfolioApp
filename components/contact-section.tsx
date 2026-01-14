@@ -137,7 +137,7 @@ export function ContactSection() {
           </div>
 
           <div className="mt-16 text-center text-sm text-muted-foreground">
-            <p>© 2025 Karthik Ragi. Built with Next.js and deployed on Vercel.</p>
+            <p>© 2025 Karthik Ragi.</p>
           </div>
         </div>
       </div>
