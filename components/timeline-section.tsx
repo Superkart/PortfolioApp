@@ -33,7 +33,7 @@ const timelineEvents = [
     year: "2020-2021",
     title: "From Coursework to Building Products",
     description: `Strengthened CS fundamentals through Design & Analysis of Algorithms, Computer Networks, Software Engineering, and Data Mining.
-    Started applying theory to real systems — thinking in terms of performance, structure, and scalability.
+    Started applying theory to real systems. Thinking in terms of performance, structure, and scalability.
     In my 6th semester, I explored Unity as a way to learn interactive software engineering and rapid iteration.
     For my minor project, I chose to build a complete project end-to-end beyond the suggested topics.
     That experience shaped how I approach engineering: creative, hands-on, and focused on shipping.`,
@@ -46,7 +46,7 @@ const timelineEvents = [
   Studied Operating Systems and RDBMS — exploring concurrency, memory management, and database design.
   Began understanding how larger systems are structured.`,
   category: "Education",
-}
+},
   {
     year: "2018-2019",
     title: "Programming Foundations Take Shape",
