@@ -30,6 +30,36 @@ const timelineEvents = [
     category: "Education",
   },
   {
+  year: "2010-2013",
+  title: "Understanding How Software Works",
+  description: `Used Inspect Element to see how websites were structured.
+  Compressed files, burned CDs, converted media formats, and managed storage.
+  Learned Microsoft Word, Excel, and PowerPoint, even experimenting with formulas.
+  Modified game assets and experimented with cheat tools just to understand mechanics.
+  The curiosity shifted from “using software” to understanding how it was built.`,
+    category: "Growth",
+  },
+  {
+    year: "2009-2012",
+    title: "Learning by Breaking Things",
+    description: `Formatted the PC (once accidentally) and reinstalled Windows when it slowed down.
+    Installed drivers and understood why hardware compatibility mattered.
+    Troubleshot missing DLL errors and performance issues while installing games.
+    Dealt with viruses from the internet and learned how antivirus software worked.
+    This phase taught me that systems aren't magic, they can be fixed and understood.`,
+    category: "Exploration",
+  },
+
+  {
+    year: "2007-2008",
+    title: "Discovering the Internet",
+    description: `BSNL was our first internet connection, and it felt like opening a new world.
+    Email was the first “Wow” moment. My first inbox was Rediffmail, while my dad used Yahoo.
+    Online games and sites like CartoonNetwork.com became a routine.
+    Suddenly I could watch YouTube, download games, and discover music beyond what we had locally.`,
+    category: "Discovery",
+  },
+  {
     year: "2005",
     title: "The First Computer at Home",
     description:
