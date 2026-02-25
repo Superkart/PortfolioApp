@@ -1117,6 +1117,10 @@
     white-space: nowrap;
   }
 
+  .whitespace-pre-line {
+    white-space: pre-line;
+  }
+
   .text-card-foreground {
     color: var(--card-foreground);
   }

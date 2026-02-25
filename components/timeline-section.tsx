@@ -29,6 +29,16 @@ const timelineEvents = [
     description: "Started journey in Computer Science, exploring game development and web technologies",
     category: "Education",
   },
+  {
+    year: "2005",
+    title: "The First Computer at Home",
+    description:
+      "Dad set up our first home PC (Windows 2000).\n" +
+      "No dedicated GPU, so some games didn't run.\n" +
+      "Started with video games, then explored music, videos, and MS Paint.\n" +
+      "Everything was offline cause no internet yet.",
+    category: "Beginning",
+  },  
 ]
 
 export function TimelineSection() {
@@ -62,7 +72,7 @@ export function TimelineSection() {
                         <span className="text-xs text-muted-foreground">• {event.category}</span>
                       </div>
                       <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
-                      <p className="text-muted-foreground leading-relaxed">{event.description}</p>
+                      <p className="text-muted-foreground leading-relaxed whitespace-pre-line">{event.description}</p>
                     </div>
                   </div>
                 </div>

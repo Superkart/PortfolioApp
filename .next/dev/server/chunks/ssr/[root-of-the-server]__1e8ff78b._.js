@@ -636,6 +636,12 @@ const timelineEvents = [
         title: "University of Illinois Chicago",
         description: "Started journey in Computer Science, exploring game development and web technologies",
         category: "Education"
+    },
+    {
+        year: "2005",
+        title: "The First Computer at Home",
+        description: "Dad set up our first home PC (Windows 2000).\n" + "No dedicated GPU, so some games didn't run.\n" + "Started with video games, then explored music, videos, and MS Paint.\n" + "Everything was offline cause no internet yet.",
+        category: "Beginning"
     }
 ];
 function TimelineSection() {
@@ -655,14 +661,14 @@ function TimelineSection() {
                                 children: "My Journey"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 40,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-1 w-20 bg-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 41,
+                                lineNumber: 51,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -670,13 +676,13 @@ function TimelineSection() {
                                 children: "Key milestones in my technical development"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 42,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/timeline-section.tsx",
-                        lineNumber: 39,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -686,7 +692,7 @@ function TimelineSection() {
                                 className: "absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-border md:-ml-px"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 46,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -698,14 +704,14 @@ function TimelineSection() {
                                                 className: "flex-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline-section.tsx",
-                                                lineNumber: 54,
+                                                lineNumber: 64,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-background md:-ml-2 z-10"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline-section.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 66,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -721,7 +727,7 @@ function TimelineSection() {
                                                                     children: event.year
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/timeline-section.tsx",
-                                                                    lineNumber: 61,
+                                                                    lineNumber: 71,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -732,13 +738,13 @@ function TimelineSection() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/timeline-section.tsx",
-                                                                    lineNumber: 62,
+                                                                    lineNumber: 72,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/timeline-section.tsx",
-                                                            lineNumber: 60,
+                                                            lineNumber: 70,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -746,59 +752,59 @@ function TimelineSection() {
                                                             children: event.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/timeline-section.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 74,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-muted-foreground leading-relaxed",
+                                                            className: "text-muted-foreground leading-relaxed whitespace-pre-line",
                                                             children: event.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/timeline-section.tsx",
-                                                            lineNumber: 65,
+                                                            lineNumber: 75,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/timeline-section.tsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 69,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline-section.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 68,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/timeline-section.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 60,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 48,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/timeline-section.tsx",
-                        lineNumber: 45,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/timeline-section.tsx",
-                lineNumber: 38,
+                lineNumber: 48,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/timeline-section.tsx",
-            lineNumber: 37,
+            lineNumber: 47,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/timeline-section.tsx",
-        lineNumber: 36,
+        lineNumber: 46,
         columnNumber: 5
     }, this);
 }
