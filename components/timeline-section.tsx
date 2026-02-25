@@ -30,13 +30,22 @@ const timelineEvents = [
     category: "Education",
   },
   {
-  year: "2010-2013",
-  title: "Understanding How Software Works",
-  description: `Used Inspect Element to see how websites were structured.
-  Compressed files, burned CDs, converted media formats, and managed storage.
-  Learned Microsoft Word, Excel, and PowerPoint, even experimenting with formulas.
-  Modified game assets and experimented with cheat tools just to understand mechanics.
-  The curiosity shifted from “using software” to understanding how it was built.`,
+    year: "2017",
+    title: "My First Line of Code",
+    description: `Introduced to C programming in 11th grade.
+    Wrote my first “Hello, World” program and saw code turn into output.
+    At the time, loops and pointers felt abstract.
+    But it was my first real glimpse of how software is built.`,
+    category: "Education",
+  },
+  {
+    year: "2010-2013",
+    title: "Understanding How Software Works",
+    description: `Used Inspect Element to see how websites were structured.
+    Compressed files, burned CDs, converted media formats, and managed storage.
+    Learned Microsoft Word, Excel, and PowerPoint, even experimenting with formulas.
+    Modified game assets and experimented with cheat tools just to understand mechanics.
+    The curiosity shifted from “using software” to understanding how it was built.`,
     category: "Growth",
   },
   {
