@@ -86,7 +86,7 @@ const projects = [
     github: "https://github.com/Superkart/MyExpenseTracker",
     image: "/expense-tracker-app-budget-charts.jpg",
     videoUrl: "",
-    featured: false,
+    featured: true,
   },
   {
     title: "Portfolio Website",
