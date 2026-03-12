@@ -391,24 +391,24 @@ const skillCategories = [
             "TypeScript",
             "JavaScript",
             "Next.js",
+            "Astro",
             "HTML/CSS",
             "Tailwind CSS",
             "Responsive Design",
-            "State Management",
-            "React Hooks"
+            "State Management"
         ]
     },
     {
         title: "Backend Development",
         skills: [
-            "Node.js",
-            "Express",
             "Spring Boot",
             "Java",
+            "Node.js",
+            "Express",
             "RESTful APIs",
             "Authentication",
             "OAuth 2.0",
-            "Microservices",
+            "Spring Data JPA",
             "API Design"
         ]
     },
@@ -416,13 +416,40 @@ const skillCategories = [
         title: "Database & Cloud",
         skills: [
             "PostgreSQL",
-            "MongoDB",
             "SQL",
+            "MongoDB",
             "Cloudflare Workers",
             "Vercel",
-            "Docker",
             "Database Design",
-            "ORM"
+            "ORM",
+            "Spring Scheduling"
+        ]
+    },
+    {
+        title: "Data Science & Analytics",
+        skills: [
+            "Python",
+            "pandas",
+            "Jupyter Notebook",
+            "Google Colab",
+            "Data Visualization",
+            "Data Lineage",
+            "Survey Analysis",
+            "Web Scraping"
+        ]
+    },
+    {
+        title: "Game Development & XR",
+        skills: [
+            "Unity",
+            "C#",
+            "OpenXR",
+            "VR Development",
+            "AR Foundation",
+            "HDRP / URP",
+            "Custom Shaders",
+            "Unity Netcode",
+            "Physics Systems"
         ]
     },
     {
@@ -433,6 +460,7 @@ const skillCategories = [
             "Java",
             "Python",
             "C#",
+            "C++",
             "SQL"
         ]
     },
@@ -446,7 +474,7 @@ const skillCategories = [
             "Testing",
             "Code Review",
             "VS Code",
-            "REST APIs"
+            "Visual Studio"
         ]
     }
 ];
@@ -467,14 +495,14 @@ function SkillsSection() {
                                 children: "Skills & Technologies"
                             }, void 0, false, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 60,
+                                lineNumber: 88,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-1 w-20 bg-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 61,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -482,13 +510,13 @@ function SkillsSection() {
                                 children: "Technical expertise in full-stack software development"
                             }, void 0, false, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 62,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/skills-section.tsx",
-                        lineNumber: 59,
+                        lineNumber: 87,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -502,12 +530,12 @@ function SkillsSection() {
                                             children: category.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/skills-section.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 97,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/skills-section.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 96,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -519,44 +547,44 @@ function SkillsSection() {
                                                     children: skill
                                                 }, skill, false, {
                                                     fileName: "[project]/components/skills-section.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 102,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/skills-section.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 100,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/skills-section.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 99,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, category.title, true, {
                                 fileName: "[project]/components/skills-section.tsx",
-                                lineNumber: 67,
+                                lineNumber: 95,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/skills-section.tsx",
-                        lineNumber: 65,
+                        lineNumber: 93,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/skills-section.tsx",
-                lineNumber: 58,
+                lineNumber: 86,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/skills-section.tsx",
-            lineNumber: 57,
+            lineNumber: 85,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/skills-section.tsx",
-        lineNumber: 56,
+        lineNumber: 84,
         columnNumber: 5
     }, this);
 }
@@ -638,9 +666,27 @@ const timelineEvents = [
         category: "Education"
     },
     {
+        year: "2020-2021",
+        title: "From Coursework to Building Products",
+        description: `Strengthened CS fundamentals through Design & Analysis of Algorithms, Computer Networks, Software Engineering, and Data Mining.
+    Started applying theory to real systems. Thinking in terms of performance, structure, and scalability.
+    In my 6th semester, I explored Unity as a way to learn interactive software engineering and rapid iteration.
+    For my minor project, I chose to build a complete project end-to-end beyond the suggested topics.
+    That experience shaped how I approach engineering: creative, hands-on, and focused on shipping.`,
+        category: "Transformation"
+    },
+    {
+        year: "2019-2020",
+        title: "Object-Oriented & Systems Thinking",
+        description: `Learned Java through OOP coursework.
+  Studied Operating Systems and RDBMS — exploring concurrency, memory management, and database design.
+  Began understanding how larger systems are structured.`,
+        category: "Education"
+    },
+    {
         year: "2018-2019",
         title: "Programming Foundations Take Shape",
-        description: `Re-learned C in first year — this time with real understanding.
+        description: `Re-learned C in first year. This time with real understanding.
     Studied Data Structures and Computer Organization.
     Programming shifted from memorizing syntax to understanding logic and memory.`,
         category: "Education"
@@ -707,14 +753,14 @@ function TimelineSection() {
                                 children: "My Journey"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 97,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-1 w-20 bg-primary"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 98,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -722,13 +768,13 @@ function TimelineSection() {
                                 children: "Key milestones in my technical development"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 99,
+                                lineNumber: 117,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/timeline-section.tsx",
-                        lineNumber: 96,
+                        lineNumber: 114,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -738,7 +784,7 @@ function TimelineSection() {
                                 className: "absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-border md:-ml-px"
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 103,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -750,14 +796,14 @@ function TimelineSection() {
                                                 className: "flex-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline-section.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 129,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-background md:-ml-2 z-10"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline-section.tsx",
-                                                lineNumber: 113,
+                                                lineNumber: 131,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -773,7 +819,7 @@ function TimelineSection() {
                                                                     children: event.year
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/timeline-section.tsx",
-                                                                    lineNumber: 118,
+                                                                    lineNumber: 136,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -784,13 +830,13 @@ function TimelineSection() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/timeline-section.tsx",
-                                                                    lineNumber: 119,
+                                                                    lineNumber: 137,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/timeline-section.tsx",
-                                                            lineNumber: 117,
+                                                            lineNumber: 135,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -798,7 +844,7 @@ function TimelineSection() {
                                                             children: event.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/timeline-section.tsx",
-                                                            lineNumber: 121,
+                                                            lineNumber: 139,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -806,51 +852,51 @@ function TimelineSection() {
                                                             children: event.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/timeline-section.tsx",
-                                                            lineNumber: 122,
+                                                            lineNumber: 140,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/timeline-section.tsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 134,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/timeline-section.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 133,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/timeline-section.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 125,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/timeline-section.tsx",
-                                lineNumber: 105,
+                                lineNumber: 123,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/timeline-section.tsx",
-                        lineNumber: 102,
+                        lineNumber: 120,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/timeline-section.tsx",
-                lineNumber: 95,
+                lineNumber: 113,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/timeline-section.tsx",
-            lineNumber: 94,
+            lineNumber: 112,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/timeline-section.tsx",
-        lineNumber: 93,
+        lineNumber: 111,
         columnNumber: 5
     }, this);
 }

@@ -7,47 +7,94 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 
-const categories = ["All", "Full-Stack", "Frontend", "Backend"]
+const categories = ["All", "Full-Stack", "Frontend", "Backend", "Data Science", "Research"]
 
 const projects = [
   {
     title: "Steam Accountabilibuddy",
     description:
-      "Full-stack game library analyzer with Steam OAuth integration. Detects unplayed games, tracks prices, and provides personalized recommendations.",
+      "Smart Steam library management platform with intelligent backlog analysis, automated price tracking, and library analytics. Users authenticate via Steam OpenID; a Spring Boot 3 backend handles scheduling, email alerts, and tag-based game similarity scoring against a PostgreSQL database.",
     category: ["Full-Stack", "Backend"],
-    tags: ["React", "TypeScript", "Spring Boot", "Cloudflare Workers", "OAuth"],
-    github: "https://github.com/Superkart/Steam_Accountabilibuddy.git",
+    tags: ["React", "Astro", "TypeScript", "Spring Boot", "Java", "PostgreSQL", "Cloudflare Workers", "OAuth"],
+    github: "https://github.com/Superkart/Steam_Accountabilibuddy",
     demo: "https://steam-accountabilibuddy.netlify.app/",
     image: "/steam-game-library-web-dashboard-analytics.jpg",
     videoUrl: "",
     featured: true,
   },
   {
-    title: "MyExpenseTracker",
-    description: "Full-stack CRUD application for personal expense management with data visualization and analytics.",
-    category: ["Full-Stack"],
-    tags: ["React", "Node.js", "PostgreSQL", "REST API"],
-    github: "https://github.com/Superkart",
-    image: "/expense-tracker-app-budget-charts.jpg",
+    title: "Immersive Cosmology Explorer",
+    description:
+      "Research-grade Unity VR/Desktop visualization system for exploring multi-billion-particle cosmological simulations. Features real-time point-cloud rendering with custom shaders, interactive property filtering, asymmetric desktop–VR collaboration, and octree spatial indexing for smooth performance.",
+    category: ["Research", "Full-Stack"],
+    tags: ["Unity", "C#", "OpenXR", "VR", "Custom Shaders", "Point Cloud Rendering", "Scientific Visualization"],
+    github: "https://github.com/Superkart/Immersive_Cosmology_Explorer",
+    image: "/vr-space-visualization-cosmology-point-cloud.jpg",
+    videoUrl: "",
+    featured: true,
+  },
+  {
+    title: "Pandas Provenance Tracker",
+    description:
+      "Open-source Python library that adds data provenance and lineage tracking to standard pandas workflows. Tracks every transformation with operation-level metadata, records row-level why-provenance, and persists logs as JSON for auditing and replay. Published on PyPI.",
+    category: ["Backend", "Data Science"],
+    tags: ["Python", "pandas", "Data Lineage", "PyPI", "Data Science", "Open Source"],
+    github: "https://github.com/Superkart/Pandas_Provenance",
+    image: "/data-flow-diagram-pandas-python-visualization.jpg",
     videoUrl: "",
     featured: true,
   },
   {
     title: "Reddit Moderator Tool",
-    description: "Web application for Reddit moderators to track community engagement, analyze patterns, and manage content effectively.",
-    category: ["Full-Stack", "Backend"],
-    tags: ["Python", "Data Visualization", "REST API", "Web Scraping"],
-    github: "https://github.com/Superkart",
+    description:
+      "Web application for Reddit moderators to track community engagement, analyze posting patterns, and manage content effectively. Uses the Reddit API and Python data analysis to surface actionable moderation insights.",
+    category: ["Full-Stack", "Data Science"],
+    tags: ["Python", "Jupyter Notebook", "Data Visualization", "REST API", "Web Scraping"],
+    github: "https://github.com/Superkart/Reddit_Moderator_Tool",
     image: "/reddit-analytics-dashboard-data-charts.jpg",
     videoUrl: "",
     featured: true,
   },
   {
+    title: "Student Survey Analysis",
+    description:
+      "End-to-end data analysis simulation of a real-world internship at Manipal University. Covers the full analytics lifecycle: survey design in Google Forms → data collection → cleaning with pandas → exploratory visualization → stakeholder report.",
+    category: ["Data Science"],
+    tags: ["Python", "pandas", "Google Colab", "Data Visualization", "Survey Analysis"],
+    github: "https://github.com/Superkart/Student_Survey_Analysis",
+    image: "/placeholder.svg",
+    videoUrl: "",
+    featured: false,
+  },
+  {
+    title: "Store — Spring Boot",
+    description:
+      "RESTful e-commerce back-end built with Spring Boot demonstrating clean layered architecture (controllers, services, repositories), entity modeling, and Spring Data JPA patterns for an e-commerce domain.",
+    category: ["Backend"],
+    tags: ["Java", "Spring Boot", "Spring Data JPA", "RESTful API", "PostgreSQL"],
+    github: "https://github.com/Superkart/Store_Spring_Boot",
+    image: "/placeholder.svg",
+    videoUrl: "",
+    featured: false,
+  },
+  {
+    title: "MyExpenseTracker",
+    description:
+      "Full-stack personal finance tracking application with CRUD operations, data visualization, and expense analytics. Features a TypeScript/React frontend with a Node.js backend and PostgreSQL database.",
+    category: ["Full-Stack"],
+    tags: ["TypeScript", "React", "Node.js", "PostgreSQL", "REST API"],
+    github: "https://github.com/Superkart/MyExpenseTracker",
+    image: "/expense-tracker-app-budget-charts.jpg",
+    videoUrl: "",
+    featured: false,
+  },
+  {
     title: "Portfolio Website",
-    description: "Personal portfolio website built with Next.js 16, TypeScript, and Tailwind CSS featuring responsive design and modern UI.",
+    description:
+      "This portfolio — built with Next.js 16, TypeScript, and Tailwind CSS. Features a responsive design, dark mode, project filtering, skills showcase, and a career timeline.",
     category: ["Frontend", "Full-Stack"],
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Responsive Design"],
-    github: "https://github.com/Superkart",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Shadcn UI"],
+    github: "https://github.com/Superkart/PortfolioApp",
     image: "/developer-working-on-computer-coding.jpg",
     videoUrl: "",
     featured: false,
