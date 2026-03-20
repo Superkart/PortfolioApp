@@ -12,10 +12,11 @@ const gameProjects = [
   {
     title: "Immersive Cosmology Explorer",
     description:
-      "VR/Desktop scientific visualization tool for exploring cosmological datasets with point-cloud rendering and time-series playback. Features custom shaders for rendering millions of particles efficiently.",
+      "Research-grade Unity VR/Desktop visualization system for exploring multi-billion-particle cosmological simulations. Features real-time point-cloud rendering with custom shaders, interactive property filtering, asymmetric desktop–VR collaboration, and octree spatial indexing for smooth frame rates.",
     category: ["VR/XR", "3D"],
-    tags: ["Unity", "C#", "OpenXR", "Custom Shaders", "VR", "Point Cloud Rendering"],
-    github: "https://github.com/Superkart",
+    tags: ["Unity", "C#", "OpenXR", "Custom Shaders", "VR", "Point Cloud Rendering", "Scientific Visualization"],
+    github: "https://github.com/Superkart/Immersive_Cosmology_Explorer",
+    demo: "",
     image: "/vr-space-visualization-cosmology-point-cloud.jpg",
     videoUrl: "",
     featured: true,
@@ -23,11 +24,11 @@ const gameProjects = [
   {
     title: "QuizDefender",
     description:
-      "Multiplayer physics-based quiz game with real-time networking using Unity Netcode. Features dynamic gameplay mechanics, player synchronization, and relay-based multiplayer architecture.",
-    category: ["Multiplayer", "3D"],
-    tags: ["Unity", "Netcode", "Unity Relay", "HDRP", "Multiplayer", "Physics"],
-    github: "https://github.com/Superkart",
-    demo: "https://example.com",
+      "Educational quiz-based tower defense hybrid game. Players answer questions to earn resources and deploy defenses against incoming waves — blending strategic gameplay with a learning loop. Built with HDRP for high-quality visuals.",
+    category: ["3D"],
+    tags: ["Unity", "C#", "HDRP", "Tower Defense", "Game Design", "Educational"],
+    github: "https://github.com/Superkart/QuizDefender",
+    demo: "",
     image: "/multiplayer-quiz-game-3d-physics.jpg",
     videoUrl: "",
     featured: true,
@@ -35,28 +36,66 @@ const gameProjects = [
   {
     title: "The Lost Isle",
     description:
-      "3D multiplayer adventure game featuring exploration mechanics, real-time player interaction, and immersive environments. Built with Unity's multiplayer networking system.",
+      "3D multiplayer adventure game featuring exploration mechanics, real-time player interaction, and immersive island environments. Built with Unity's multiplayer networking system for synchronized co-op play.",
     category: ["Multiplayer", "3D"],
     tags: ["Unity", "C#", "Multiplayer", "3D", "Adventure", "Networking"],
-    github: "https://github.com/Superkart",
+    github: "https://github.com/Superkart/The-Lost-Isle",
+    demo: "",
     image: "/3d-island-adventure-game-tropical-exploration.jpg",
     videoUrl: "",
     featured: true,
   },
   {
+    title: "AR Model Viewer",
+    description:
+      "Mobile AR app that places a detailed 3D model of an AC motor mid-air using the phone camera, letting users explore its internal components in augmented reality. First-hand experience shipping a production AR experience on Unity's AR Foundation stack.",
+    category: ["AR/XR", "Mobile"],
+    tags: ["Unity", "C#", "AR Foundation", "Augmented Reality", "Mobile", "3D"],
+    github: "https://github.com/Superkart/ARModelViewer",
+    demo: "",
+    image: "/placeholder.svg",
+    videoUrl: "",
+    featured: true,
+  },
+  {
+    title: "MiniTankMania",
+    description:
+      "Wave-based 3D tank combat game where the player controls a miniature tank against escalating enemy waves. Demonstrates AI pathfinding, wave management, and enemy spawning systems.",
+    category: ["3D"],
+    tags: ["Unity", "C#", "AI", "Wave System", "3D", "Combat"],
+    github: "https://github.com/Superkart/MiniTankMania",
+    demo: "",
+    image: "/placeholder.svg",
+    videoUrl: "",
+    featured: false,
+  },
+  {
+    title: "ShooterConcept",
+    description:
+      "Third-person shooter movement and combat prototype showcasing character controller implementation, aiming mechanics, and basic enemy interactions.",
+    category: ["3D"],
+    tags: ["Unity", "C#", "3D", "Third-Person", "Shooter", "Character Controller"],
+    github: "https://github.com/Superkart/ShooterConcept",
+    demo: "",
+    image: "/placeholder.svg",
+    videoUrl: "",
+    featured: false,
+  },
+  {
     title: "Mario Game",
     description:
-      "2.5D platformer inspired by classic Mario games featuring custom physics systems, level design, and character controllers. Implements precise movement mechanics and collision detection.",
+      "2D side-scroller inspired by classic Mario mechanics. Features custom physics, level design, character controllers, and precise collision detection.",
     category: ["2D/2.5D"],
     tags: ["Unity", "C#", "2D", "Physics", "Platformer", "Game Design"],
-    github: "https://github.com/Superkart",
+    github: "https://github.com/Superkart/Mario-Game",
+    demo: "",
     image: "/mario-style-platformer-game-2d.jpg",
     videoUrl: "",
     featured: false,
   },
 ]
 
-const categories = ["All", "VR/XR", "Multiplayer", "3D", "2D/2.5D"]
+const categories = ["All", "VR/XR", "AR/XR", "Multiplayer", "3D", "2D/2.5D", "Mobile"]
 
 export default function GameDevPage() {
   const [selectedCategory, setSelectedCategory] = useState("All")
